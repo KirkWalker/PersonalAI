@@ -1,1 +1,3 @@
 echo "🚀 Husky pre-push hook is running!"
+
+npm test
