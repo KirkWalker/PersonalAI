@@ -27,6 +27,8 @@
   },
   "private": true,
   "devDependencies": {
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
     "@types/react": "~19.1.10",
     "eslint": "^9.39.1",
     "eslint-config-prettier": "^10.1.8",
