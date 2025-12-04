@@ -26,8 +26,19 @@ module.exports = [
       'no-console': 'off',
     },
   },
+  // JavaScript files (including config files)
   {
     files: ['**/*.js'],
-    ...js.configs.recommended,
+    languageOptions: {
+      ecmaVersion: 'latest',
+      sourceType: 'module',
+      globals: {
+        ...globals.browser,
+        ...globals.node,
+      },
+    },
+    rules: {
+      ...js.configs.recommended.rules,
+    },
   },
 ];

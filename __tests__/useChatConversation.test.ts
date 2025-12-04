@@ -1,6 +1,5 @@
 import { renderHook, act } from '@testing-library/react';
 import { useChatConversation } from '../src/hooks/useChatConversation';
-import systemResponses from '../src/data/systemResponses';
 import systemOptions from '../src/data/systemOptions';
 
 describe('useChatConversation - First Load', () => {
